@@ -41,6 +41,9 @@ dependencies:
   google_generative_ai: ^0.4.3
   flutter_dotenv: ^5.1.0
   animated_text_kit: ^4.2.2
+  firebase_core: ^3.1.1
+  firebase_auth: ^5.1.1
+  cloud_firestore: ^5.0.2
 
 dev_dependencies:
   flutter_test:
@@ -70,6 +73,7 @@ flutter:
     - assets/images/background.png
     - assets/images/background2.png
     - assets/images/background3.png
+    - assets/images/background4.png
     - assets/images/greek.png
     - assets/images/indian.png
     - assets/images/italian.png

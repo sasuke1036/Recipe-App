@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:receipe_app/screens/ingredient_screen.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
+import 'sign_in_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
@@ -26,21 +27,21 @@ class WelcomeScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 // Animated welcome text
-                TyperAnimatedTextKit(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => IngredientScreen()),
-                    );
-                  },
-                  text: const ['Welcome to our Recipe App!!'],
-                  textStyle: const TextStyle(
-                    fontSize: 36,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white,
-                  ),
-                  textAlign: TextAlign.center,
+                AnimatedTextKit(
+                  animatedTexts: [
+                    TypewriterAnimatedText(
+                      'Welcome to our Recipe App',
+                      textAlign: TextAlign.center,
+                      textStyle: TextStyle(
+                        fontSize: 36,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
+                      speed: Duration(milliseconds: 100),
+                    ),
+                  ],
+                  totalRepeatCount: 1,
+                  pause: Duration(milliseconds: 1000),
                 ),
                 const SizedBox(height: 40),
                 // Start button
@@ -55,12 +56,11 @@ class WelcomeScreen extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(
-                          builder: (context) => const IngredientScreen()),
+                      MaterialPageRoute(builder: (context) => SignInScreen()),
                     );
                   },
                   child: const Text(
-                    'Start',
+                    ' Get Started',
                     style: TextStyle(fontSize: 20),
                   ),
                 ),
