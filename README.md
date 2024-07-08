@@ -25,6 +25,16 @@ Start Fresh: Easily restart the process by returning to the ingredient selection
 
 ## Screenshots
 
+<div style="display: flex, justify-content: space-around:">
+  <img src="https://github.com/sasuke1036/Recipe-App/assets/92037371/11db1020-4640-4a1f-af43-8a7c8f742269" width="250" alt="Recipe ss 1">
+  <img src="https://github.com/sasuke1036/Recipe-App/assets/92037371/5a48b746-f35f-474b-a4d0-299171b9c894" width="250" alt="Recipe ss 2">
+   <img src="https://github.com/sasuke1036/Recipe-App/assets/92037371/211e9690-c4cf-447a-977c-cfa9673374ac" width="250" alt="Recipe ss 3">
+   <img src="https://github.com/sasuke1036/Recipe-App/assets/92037371/871be62e-f1cf-43c8-ae43-a0c4ba0755a6" width="250" alt="Recipe ss 4">
+    <img src="https://github.com/sasuke1036/Recipe-App/assets/92037371/0669918d-d98d-4215-b4e2-e88c7d51ce9a" width="250" alt="Recipe ss 5">
+    <img src="https://github.com/sasuke1036/Recipe-App/assets/92037371/10b76986-4ec7-48c7-9183-7edaa067a5d6" width="250" alt="Recipe ss 6">
+    <img src="https://github.com/sasuke1036/Recipe-App/assets/92037371/3d9c5529-251c-43e9-aa0e-5199cdb8a87d" width="250" alt="Recipe ss 7">
+    <img src="https://github.com/sasuke1036/Recipe-App/assets/92037371/86c0b7b4-01ec-4a20-82fb-d901fccbd6e5" width="250" alt="Recipe ss 8">
+</div>
 
 ## Installation
 Follow these steps to set up and run the project on your local machine:
